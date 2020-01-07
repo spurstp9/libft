@@ -27,7 +27,7 @@ typedef struct		s_word
 	int				len;
 }					t_word;
 
-int					ft_abs(int a, int b);
+int					ft_abs(int a);
 int					ft_atoi_base(char *str, char *base);
 int					ft_atoi(const char *str);
 void				ft_bzero(void *s, size_t n);
